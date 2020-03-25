@@ -1,0 +1,38 @@
+BlockchainLoadTestingJob:
+  Db:
+    LogsConnString:
+      settings-key: BlockchainLoadTestingJob-LogsConnString
+      types:
+        - AzureTableStorage
+  RabbitMq:
+    ConnectionString:
+      settings-key: UserManagementRabbitMQ
+      types:
+        - RabbitMq
+CampaignServiceClient:
+    ServiceUrl:
+        settings-key: CampaignServiceUrl
+CustomerManagementServiceClient:
+    ServiceUrl:
+        settings-key: CustomerManagementServiceUrl
+CustomerProfileServiceClient:
+    ServiceUrl:
+        settings-key: CustomerProfileServiceUrl
+PaymentTransfersServiceClient:
+    ServiceUrl:
+        settings-key: PaymentTransfersServiceUrl
+WalletManagementServiceClient:
+    ServiceUrl:
+        settings-key: WalletManagementServiceUrl
+SlackNotifications:
+    AzureQueue:
+        ConnectionString:
+            settings-key: SlackNotificationsConnString
+            types:
+                - AzureTableStorage
+        QueueName:
+            settings-key: SlackQueueName
+MonitoringServiceClient:
+    MonitoringServiceUrl:
+        settings-key: MonitoringServiceUrl
+
