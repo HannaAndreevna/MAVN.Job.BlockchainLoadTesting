@@ -1,11 +1,11 @@
-﻿using JetBrains.Annotations;
-using Lykke.Job.BlockchainLoadTesting.Settings;
+using JetBrains.Annotations;
+using MAVN.Job.BlockchainLoadTesting.Settings;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using Lykke.Sdk;
 
-namespace Lykke.Job.BlockchainLoadTesting
+namespace MAVN.Job.BlockchainLoadTesting
 {
     [UsedImplicitly]
     public class Startup

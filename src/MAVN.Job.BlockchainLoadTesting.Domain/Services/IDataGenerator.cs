@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Lykke.Job.BlockchainLoadTesting.Domain.Services
+namespace MAVN.Job.BlockchainLoadTesting.Domain.Services
 {
     public interface IDataGenerator
     {

@@ -1,10 +1,10 @@
-﻿using Autofac;
+using Autofac;
 using Common;
 using JetBrains.Annotations;
-using Lykke.Job.BlockchainLoadTesting.Domain.Services;
-using Lykke.Job.BlockchainLoadTesting.DomainServices;
-using Lykke.Job.BlockchainLoadTesting.Services;
-using Lykke.Job.BlockchainLoadTesting.Settings;
+using MAVN.Job.BlockchainLoadTesting.Domain.Services;
+using MAVN.Job.BlockchainLoadTesting.DomainServices;
+using MAVN.Job.BlockchainLoadTesting.Services;
+using MAVN.Job.BlockchainLoadTesting.Settings;
 using Lykke.RabbitMqBroker.Publisher;
 using Lykke.Service.Campaign.Client;
 using Lykke.Service.CustomerManagement.Client;
@@ -16,7 +16,7 @@ using Lykke.SettingsReader;
 using Lykke.Sdk;
 using Lykke.Sdk.Health;
 
-namespace Lykke.Job.BlockchainLoadTesting.Modules
+namespace MAVN.Job.BlockchainLoadTesting.Modules
 {
     [UsedImplicitly]
     public class JobModule : Module

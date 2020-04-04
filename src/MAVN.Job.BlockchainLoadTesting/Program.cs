@@ -1,7 +1,7 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using Lykke.Sdk;
 
-namespace Lykke.Job.BlockchainLoadTesting
+namespace MAVN.Job.BlockchainLoadTesting
 {
     internal sealed class Program
     {

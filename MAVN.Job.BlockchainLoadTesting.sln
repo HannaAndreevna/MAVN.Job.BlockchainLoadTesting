@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
@@ -13,17 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution items", "0. Sol
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Domain", "1. Domain", "{CC2067D7-1971-47BB-B491-5649EA3C18B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Job.BlockchainLoadTesting.Domain", "src\Lykke.Job.BlockchainLoadTesting.Domain\Lykke.Job.BlockchainLoadTesting.Domain.csproj", "{F5B2F6B8-A8CC-4612-8F1D-C063EB8C8955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAVN.Job.BlockchainLoadTesting.Domain", "src\MAVN.Job.BlockchainLoadTesting.Domain\MAVN.Job.BlockchainLoadTesting.Domain.csproj", "{F5B2F6B8-A8CC-4612-8F1D-C063EB8C8955}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Job.BlockchainLoadTesting.DomainServices", "src\Lykke.Job.BlockchainLoadTesting.DomainServices\Lykke.Job.BlockchainLoadTesting.DomainServices.csproj", "{2D5F52EC-2A27-4045-81ED-72355E2A6325}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAVN.Job.BlockchainLoadTesting.DomainServices", "src\MAVN.Job.BlockchainLoadTesting.DomainServices\MAVN.Job.BlockchainLoadTesting.DomainServices.csproj", "{2D5F52EC-2A27-4045-81ED-72355E2A6325}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Tests", "4. Tests", "{8F9036B1-5106-4C69-B2D2-B78EE52687A0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Job.BlockchainLoadTesting.Tests", "tests\Lykke.Job.BlockchainLoadTesting.Tests\Lykke.Job.BlockchainLoadTesting.Tests.csproj", "{A61FFDEE-5725-4650-A788-6E55EE5EFD5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAVN.Job.BlockchainLoadTesting.Tests", "tests\MAVN.Job.BlockchainLoadTesting.Tests\MAVN.Job.BlockchainLoadTesting.Tests.csproj", "{A61FFDEE-5725-4650-A788-6E55EE5EFD5B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Hosts", "5. Hosts", "{EE7F3159-E06C-497F-96D4-DB2A6B03A6AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Job.BlockchainLoadTesting", "src\Lykke.Job.BlockchainLoadTesting\Lykke.Job.BlockchainLoadTesting.csproj", "{5566FD3E-0DB6-4BF3-A98D-4A1181B3E02C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAVN.Job.BlockchainLoadTesting", "src\MAVN.Job.BlockchainLoadTesting\MAVN.Job.BlockchainLoadTesting.csproj", "{5566FD3E-0DB6-4BF3-A98D-4A1181B3E02C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Common;
@@ -6,7 +6,7 @@ using Common.Log;
 using Lykke.Common.Log;
 using Lykke.Sdk;
 
-namespace Lykke.Job.BlockchainLoadTesting.Services
+namespace MAVN.Job.BlockchainLoadTesting.Services
 {
     // NOTE: Sometimes, shutdown process should be expressed explicitly. 
     // If this is your case, use this class to manage shutdown.

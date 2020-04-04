@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using Common.Log;
 using Lykke.Common.Log;
-using Lykke.Job.BlockchainLoadTesting.Domain.Services;
+using MAVN.Job.BlockchainLoadTesting.Domain.Services;
 using Lykke.RabbitMqBroker.Publisher;
 using Lykke.Service.Campaign.Client;
 using Lykke.Service.Campaign.Client.Models.BurnRule.Requests;
@@ -22,7 +22,7 @@ using Lykke.Service.WalletManagement.Client;
 using Lykke.Service.WalletManagement.Client.Enums;
 using Lykke.Service.WalletManagement.Client.Models.Requests;
 
-namespace Lykke.Job.BlockchainLoadTesting.DomainServices
+namespace MAVN.Job.BlockchainLoadTesting.DomainServices
 {
     public class DataGenerator : IDataGenerator
     {

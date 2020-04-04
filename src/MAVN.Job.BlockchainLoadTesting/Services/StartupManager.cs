@@ -1,9 +1,9 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using Common.Log;
 using Lykke.Common.Log;
 using Lykke.Sdk;
 
-namespace Lykke.Job.BlockchainLoadTesting.Services
+namespace MAVN.Job.BlockchainLoadTesting.Services
 {
     // NOTE: Sometimes, startup process which is expressed explicitly is not just better, 
     // but the only way. If this is your case, use this class to manage startup.

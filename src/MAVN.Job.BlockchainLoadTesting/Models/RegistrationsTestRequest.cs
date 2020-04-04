@@ -1,4 +1,4 @@
-﻿namespace Lykke.Job.BlockchainLoadTesting.Models
+namespace MAVN.Job.BlockchainLoadTesting.Models
 {
     public class RegistrationsTestRequest
     {

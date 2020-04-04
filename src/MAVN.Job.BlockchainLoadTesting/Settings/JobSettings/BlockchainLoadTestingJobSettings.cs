@@ -1,4 +1,4 @@
-﻿namespace Lykke.Job.BlockchainLoadTesting.Settings.JobSettings
+namespace MAVN.Job.BlockchainLoadTesting.Settings.JobSettings
 {
     public class BlockchainLoadTestingJobSettings
     {

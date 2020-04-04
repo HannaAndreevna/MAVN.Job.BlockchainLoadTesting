@@ -1,12 +1,12 @@
-﻿using System.Net;
+using System.Net;
 using System.Threading.Tasks;
 using Common.Log;
 using Lykke.Common.Log;
-using Lykke.Job.BlockchainLoadTesting.Domain.Services;
-using Lykke.Job.BlockchainLoadTesting.Models;
+using MAVN.Job.BlockchainLoadTesting.Domain.Services;
+using MAVN.Job.BlockchainLoadTesting.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Lykke.Job.BlockchainLoadTesting.Controllers
+namespace MAVN.Job.BlockchainLoadTesting.Controllers
 {
     [Route("api/loadtest")]
     public class LoadTestController : ControllerBase

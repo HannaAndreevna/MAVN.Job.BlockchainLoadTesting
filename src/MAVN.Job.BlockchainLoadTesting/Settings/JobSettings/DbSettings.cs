@@ -1,6 +1,6 @@
-﻿using Lykke.SettingsReader.Attributes;
+using Lykke.SettingsReader.Attributes;
 
-namespace Lykke.Job.BlockchainLoadTesting.Settings.JobSettings
+namespace MAVN.Job.BlockchainLoadTesting.Settings.JobSettings
 {
     public class DbSettings
     {

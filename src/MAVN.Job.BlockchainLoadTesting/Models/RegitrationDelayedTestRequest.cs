@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace Lykke.Job.BlockchainLoadTesting.Models
+namespace MAVN.Job.BlockchainLoadTesting.Models
 {
     public class RegitrationDelayedTestRequest : RegistrationsTestRequest
     {
