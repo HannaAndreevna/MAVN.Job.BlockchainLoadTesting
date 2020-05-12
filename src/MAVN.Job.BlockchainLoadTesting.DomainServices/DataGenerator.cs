@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -7,20 +7,16 @@ using Common.Log;
 using Lykke.Common.Log;
 using MAVN.Job.BlockchainLoadTesting.Domain.Services;
 using Lykke.RabbitMqBroker.Publisher;
-using Lykke.Service.Campaign.Client;
-using Lykke.Service.Campaign.Client.Models.BurnRule.Requests;
-using Lykke.Service.CustomerManagement.Client;
-using Lykke.Service.CustomerManagement.Client.Models.Requests;
-using Lykke.Service.CustomerManagement.Contract.Events;
-using Lykke.Service.CustomerProfile.Client;
-using Lykke.Service.CustomerProfile.Client.Models.Enums;
-using Lykke.Service.CustomerProfile.Client.Models.Requests;
-using Lykke.Service.PartnerManagement.Client.Models;
-using Lykke.Service.PaymentTransfers.Client;
-using Lykke.Service.PaymentTransfers.Client.Models.Requests;
-using Lykke.Service.WalletManagement.Client;
-using Lykke.Service.WalletManagement.Client.Enums;
-using Lykke.Service.WalletManagement.Client.Models.Requests;
+using MAVN.Service.Campaign.Client;
+using MAVN.Service.CustomerManagement.Client;
+using MAVN.Service.CustomerManagement.Client.Models.Requests;
+using MAVN.Service.CustomerManagement.Contract.Events;
+using MAVN.Service.CustomerProfile.Client;
+using MAVN.Service.CustomerProfile.Client.Models.Enums;
+using MAVN.Service.CustomerProfile.Client.Models.Requests;
+using MAVN.Service.WalletManagement.Client;
+using MAVN.Service.WalletManagement.Client.Enums;
+using MAVN.Service.WalletManagement.Client.Models.Requests;
 
 namespace MAVN.Job.BlockchainLoadTesting.DomainServices
 {
@@ -28,7 +24,6 @@ namespace MAVN.Job.BlockchainLoadTesting.DomainServices
     {
         private readonly ICampaignClient _campaignClient;
         private readonly ICustomerManagementServiceClient _customerManagementServiceClient;
-        private readonly IPaymentTransfersClient _paymentTransfersClient;
         private readonly IWalletManagementClient _walletManagementClient;
         private readonly ICustomerProfileClient _customerProfileClient;
         private readonly IRabbitPublisher<EmailCodeVerifiedEvent> _emailVerifiedPublisher;
@@ -37,7 +32,6 @@ namespace MAVN.Job.BlockchainLoadTesting.DomainServices
         public DataGenerator(
             ICampaignClient campaignClient,
             ICustomerManagementServiceClient customerManagementServiceClient,
-            IPaymentTransfersClient paymentTransfersClient,
             IWalletManagementClient walletManagementClient,
             ICustomerProfileClient customerProfileClient,
             IRabbitPublisher<EmailCodeVerifiedEvent> emailVerifiedPublisher,
@@ -45,7 +39,6 @@ namespace MAVN.Job.BlockchainLoadTesting.DomainServices
         {
             _campaignClient = campaignClient;
             _customerManagementServiceClient = customerManagementServiceClient;
-            _paymentTransfersClient = paymentTransfersClient;
             _walletManagementClient = walletManagementClient;
             _customerProfileClient = customerProfileClient;
             _emailVerifiedPublisher = emailVerifiedPublisher;

@@ -1,10 +1,9 @@
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using MAVN.Job.BlockchainLoadTesting.Settings.JobSettings;
-using Lykke.Service.Campaign.Client;
-using Lykke.Service.CustomerManagement.Client;
-using Lykke.Service.CustomerProfile.Client;
-using Lykke.Service.PaymentTransfers.Client;
-using Lykke.Service.WalletManagement.Client;
+using MAVN.Service.Campaign.Client;
+using MAVN.Service.CustomerManagement.Client;
+using MAVN.Service.CustomerProfile.Client;
+using MAVN.Service.WalletManagement.Client;
 using Lykke.Sdk.Settings;
 
 namespace MAVN.Job.BlockchainLoadTesting.Settings
@@ -17,8 +16,6 @@ namespace MAVN.Job.BlockchainLoadTesting.Settings
         public CampaignServiceClientSettings CampaignServiceClient { get; set; }
 
         public CustomerManagementServiceClientSettings CustomerManagementServiceClient { get; set; }
-
-        public PaymentTransfersServiceClientSettings PaymentTransfersServiceClient { get; set; }
 
         public WalletManagementServiceClientSettings WalletManagementServiceClient { get; set; }
 
